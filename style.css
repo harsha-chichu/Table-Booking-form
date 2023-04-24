@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+  color:#000;
+  font-family: Varela Round;
+  text-align: center;
+  margin: 0;
+}
+form{
+  background-color: #FFBF00;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+  border-radius:3px;
+  padding: 30px 20px;
+  max-width: 600px; 
+  margin: 40px auto;
+}
+.form-control{
+  text-align: left;
+  margin-bottom: 20px;
+}
+.form-control label{
+  display: block;
+  margin-bottom: 6px;
+
+  
+}
+.form-control input,
+.form-control select,
+.form-control textarea{
+  padding: 10px;
+  font-size: 14px;
+  font-family: Varela Round;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: block;
+  width:100%;
+  
+}
+.top
+{
+    color:white;
+}
+.form-control input[type="radio"], .form-control input[input="checkbox"]{
+
+ display: inline-block;
+  
+  width: auto;
+}
+input[type="submit"]{
+  background-color: #05c46b;
+  font-family: Orator Std;
+  font-size:26px;
+   border: 1px solid black;
+  border-radius: 3px;
+  width:100%;
+  height:7vh;
+  
+}

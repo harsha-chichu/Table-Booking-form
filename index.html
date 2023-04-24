@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title" class = "top">Table booking form</h1>
+    <p id="description" class="top"><i>“One cannot think well, love well, sleep well, if one has not dined well.”</i></p>
+    
+    <form action = "google.com"id="booking-form">
+      <div class="form-control">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required></input>
+      </div>
+    <div class="form-control">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter Your email" required></input>
+      </div>
+    <div class="form-control">
+        <label for="name" id="name-label">Phone number</label>
+        <input type="tel" id="name" placeholder="Enter Your number" required></input>
+      </div>
+    
+    <div class="form-control">
+        <label for="age" id="number-label">Number of guests</label>
+        <input type="number" id="number" placeholder="Enter number of guests" required min="3" max="200"></input>
+      </div>
+    <div class="form-control">
+        <label for="name" id="date-time">Date & Time</label>
+        <input type="datetime-local" id="time" name="time" required>
+      </div>
+    
+    <div class="form-control">
+      <lable for="role" id="lable-r">Any special occasion?</lable>
+      <select name="role" id="dropdown">
+        <option value="None">None</option>
+        
+        <option value="Birthday">Birthday</option>
+        <option value="Marriage anniversary">Marriage anniversary</option>
+        <option value="Normal Party">Normal Party</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+    
+      <div class="form-control">
+        <lable for="comments">Any Requests or suggestions?</lable>
+        <textarea name="comments" id="comments" placeholder="Enter your comments...."></textarea>
+      </div>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
